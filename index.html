@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+	</head>
+	<body>
+		<div class="main">
+			<div class="selectionSection">
+		        <input type="radio" name="choice" value="red">Red</input>
+		        <input type="radio" name="choice" value="blue">Blue</input>
+		        <input type="radio" name="choice" value="green">Green</input>
+			</div>
+			<div class="container">    
+			    <div id="innerContainer" class="innerContainer"></div>
+			</div>
+		    <div class="reset">
+		    	<button value="Randomize" onClick="appController.randomize();">Randomize</button>
+		    	<button value="Reset" onClick="appController.reset();">Reset</button>
+		    </div>
+		</div>
+		<script src="js/jquery.js"></script>
+		<script src="js/script.js"></script>
+	</body>	
+</html>
